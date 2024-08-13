@@ -3,14 +3,14 @@ window.onload = function(){
     };
     
     function printTime() {
-        var d = new Date();
-        var hours = d.getHours();
-        var mins = d.getMinutes();
-        var secs = d.getSeconds();
-        var day = d.getDay();
-        var date = d.getDate();
-        var month = d.getMonth();
-        var year = d.getFullYear();
+        let d = new Date();
+        let hours = d.getHours();
+        let mins = d.getMinutes();
+        let secs = d.getSeconds();
+        let day = d.getDay();
+        let date = d.getDate();
+        let month = d.getMonth();
+        let year = d.getFullYear();
         
             switch (day){
             
@@ -50,9 +50,12 @@ window.onload = function(){
                 secs = "0" + secs;
             }
        
-       month = month + 1; document.getElementById("test").innerHTML = hours+":"+mins+":"+secs;
-    document.getElementById("ttt").innerHTML = day + ", " + date + "." + month + "." + year;
+        month = month + 1; 
+        
+        document.getElementById("test").innerHTML = hours+":"+mins+":"+secs;
+        document.getElementById("ttt").innerHTML = day + ", " + date + "." + month + "." + year;
     }
+
     setInterval(printTime, 1000);
     
     
