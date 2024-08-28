@@ -1,5 +1,6 @@
 #body{
-    background-color: lightgray;
+     background-image: url("https://dl.dropbox.com/scl/fi/rshqqdf3gnjuedygqclsq/bd8bffd78009eab632d34294f1b760bb.gif?rlkey=0wugi15eo2c8isxac7obz9h0v&st=yiz7fev4&dl=0");
+}
 }
 
 #test{
@@ -11,7 +12,7 @@
     text-shadow:5px 3px 25px white;
     padding:5px;
     border:2px lightskyblue;
-    border-radius:30px;
+    border-radius:100%;
 }
 
 #ttt{
@@ -23,11 +24,13 @@
     border-radius:30px;
 }
 #all{
-    padding:5px;
-    border:5px solid lightskyblue;
+    position: relative;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    background-image: url("https://dl.dropbox.com/scl/fi/rshqqdf3gnjuedygqclsq/bd8bffd78009eab632d34294f1b760bb.gif?rlkey=0wugi15eo2c8isxac7obz9h0v&st=yiz7fev4&dl=0");
+    border-radius: 100%;
     font-family:serif;
     border-radius:30px;
 }
-
-
-
